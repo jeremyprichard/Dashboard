@@ -1,0 +1,567 @@
+[
+    {
+        "id": "d93a74dc9f1b01e3",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "138efde459b97c54",
+        "type": "serial-port",
+        "serialport": "/dev/ttyS0",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "6e83ebabdb726c1c",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "5471704c5cf09631",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#000000",
+                "baseFont": "Copperplate,Copperplate Gothic Light,fantasy",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#000000",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b26fca49c806b211",
+        "type": "ui_group",
+        "name": "Speed",
+        "tab": "6e83ebabdb726c1c",
+        "order": 1,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "087fa9e61fe721ac",
+        "type": "ui_group",
+        "name": "RPM",
+        "tab": "6e83ebabdb726c1c",
+        "order": 3,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a80026bf470b28c8",
+        "type": "ui_group",
+        "name": "Battery",
+        "tab": "6e83ebabdb726c1c",
+        "order": 4,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db8bbcca5830b4cf",
+        "type": "ui_group",
+        "name": "Gear",
+        "tab": "6e83ebabdb726c1c",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bcd198076d116eca",
+        "type": "ui_spacer",
+        "z": "d93a74dc9f1b01e3",
+        "name": "spacer",
+        "group": "67fd8815cd0ab872",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d674374066c08d02",
+        "type": "ui_spacer",
+        "z": "d93a74dc9f1b01e3",
+        "name": "spacer",
+        "group": "67fd8815cd0ab872",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "b5c8056e10838956",
+        "type": "ui_spacer",
+        "z": "d93a74dc9f1b01e3",
+        "name": "spacer",
+        "group": "67fd8815cd0ab872",
+        "order": 3,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f120310b65843467",
+        "type": "ui_group",
+        "name": "Bias",
+        "tab": "6e83ebabdb726c1c",
+        "order": 5,
+        "disp": false,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "938b5fc7a96e220b",
+        "type": "serial in",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "serial": "138efde459b97c54",
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "4269b83edb9d4278",
+                "0db1ba2e00d92668",
+                "73c037a930ef290b",
+                "226c7968e801542f",
+                "b026714bd1a0909b",
+                "6711c1fd3e95f4f4",
+                "9cbcc0bce16282ca"
+            ]
+        ]
+    },
+    {
+        "id": "4269b83edb9d4278",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar bat = (parseInt(output[3])/10).toFixed(1);\nvar msg1 = {payload:bat};\nreturn (msg1);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 180,
+        "wires": [
+            [
+                "6b201190374d9e62"
+            ]
+        ]
+    },
+    {
+        "id": "6b201190374d9e62",
+        "type": "ui_text",
+        "z": "d93a74dc9f1b01e3",
+        "group": "a80026bf470b28c8",
+        "order": 1,
+        "width": "4",
+        "height": "4",
+        "name": "",
+        "label": "Battery",
+        "format": "<font size = 40><font color = grey>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 960,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "53776fa6183db0f0",
+        "type": "ui_text",
+        "z": "d93a74dc9f1b01e3",
+        "group": "087fa9e61fe721ac",
+        "order": 1,
+        "width": "4",
+        "height": "4",
+        "name": "",
+        "label": "RPM",
+        "format": "<font size = 40><font color = grey>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 970,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6b0d7175dd860f73",
+        "type": "ui_text",
+        "z": "d93a74dc9f1b01e3",
+        "group": "b26fca49c806b211",
+        "order": 2,
+        "width": "4",
+        "height": "4",
+        "name": "",
+        "label": "Speed",
+        "format": "<font size = 40><font color = grey>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1010,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "0db1ba2e00d92668",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar rpm = parseInt(output[1]);\nvar msg1 = {payload:rpm};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 80,
+        "wires": [
+            [
+                "53776fa6183db0f0"
+            ]
+        ]
+    },
+    {
+        "id": "73c037a930ef290b",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar speed = (parseInt(output[0])/16.09).toFixed(0);\nvar msg1 = {payload:speed};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 40,
+        "wires": [
+            [
+                "6b0d7175dd860f73"
+            ]
+        ]
+    },
+    {
+        "id": "2ea843e51d24cd47",
+        "type": "ui_text",
+        "z": "d93a74dc9f1b01e3",
+        "group": "f120310b65843467",
+        "order": 1,
+        "width": "4",
+        "height": "4",
+        "name": "",
+        "label": "Bias",
+        "format": "<font size = 40><font color = grey>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 930,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c7ce08a0720bc7ea",
+        "type": "ui_text",
+        "z": "d93a74dc9f1b01e3",
+        "group": "db8bbcca5830b4cf",
+        "order": 1,
+        "width": "6",
+        "height": "8",
+        "name": "",
+        "label": "Gear",
+        "format": "<font size =60><font color = grey>{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1010,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9b011d7fc8272ec6",
+        "type": "ui_toast",
+        "z": "d93a74dc9f1b01e3",
+        "position": "bottom left",
+        "displayTime": "3",
+        "highlight": "black",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": true,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1250,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b026714bd1a0909b",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar gear = parseInt(output[2]);\nvar msg1 = {payload:gear};\nreturn (msg1);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 140,
+        "wires": [
+            [
+                "c7ce08a0720bc7ea"
+            ]
+        ]
+    },
+    {
+        "id": "226c7968e801542f",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar bias = (parseInt(output[4])/10).toFixed(1);\nvar msg1 = {payload:bias};\nreturn (msg1);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 220,
+        "wires": [
+            [
+                "2ea843e51d24cd47"
+            ]
+        ]
+    },
+    {
+        "id": "6711c1fd3e95f4f4",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload.split(\",\");\nvar bias = parseInt(output[5]);\n\nvar msg1 = {payload:bias};\nreturn msg1;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 300,
+        "wires": [
+            [
+                "5d2a909f9691d380"
+            ]
+        ]
+    },
+    {
+        "id": "5d2a909f9691d380",
+        "type": "rbe",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 890,
+        "y": 300,
+        "wires": [
+            [
+                "9811952b7fc06fbf"
+            ]
+        ]
+    },
+    {
+        "id": "9811952b7fc06fbf",
+        "type": "function",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "func": "var output = msg.payload;\n\nvar message1 = '<font color = grey>ECU Disconnected';\nvar message2 = '<font color = grey>ECU Connected';\nvar msg1 = {payload:message1};\nvar msg2 = {payload:message2};\nif(output==4) {\n    return msg1;\n} else if(output==5) {\n    return msg2;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 300,
+        "wires": [
+            [
+                "9b011d7fc8272ec6"
+            ]
+        ]
+    },
+    {
+        "id": "9cbcc0bce16282ca",
+        "type": "trigger",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "op1": "<font color = grey>Serial Port Connected",
+        "op2": "<font color = grey>Serial Port Disconnected",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "1",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 560,
+        "y": 400,
+        "wires": [
+            [
+                "a980623ca9180f6d"
+            ]
+        ]
+    },
+    {
+        "id": "2e3de6f31be36ecc",
+        "type": "ui_toast",
+        "z": "d93a74dc9f1b01e3",
+        "position": "bottom left",
+        "displayTime": "3",
+        "highlight": "black",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": true,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 950,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "a980623ca9180f6d",
+        "type": "delay",
+        "z": "d93a74dc9f1b01e3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 440,
+        "wires": [
+            [
+                "2e3de6f31be36ecc"
+            ]
+        ]
+    }
+]
